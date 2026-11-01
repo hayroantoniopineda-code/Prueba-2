@@ -1,0 +1,8 @@
+MI TV - proyecto Android (Fire TV / Android TV / Google TV)
+1. Instala Android Studio (gratis) y abre esta carpeta (File > Open).
+2. Espera a que sincronice Gradle.
+3. Build > Build APK(s). El archivo queda en app/build/outputs/apk/debug/app-debug.apk
+4. Instala en tu TV: activa "Depuracion ADB" en el Fire Stick/Google TV y usa
+   adb connect IP_DE_TU_TV  y  adb install app-debug.apk
+   (o sube el APK a la nube y bajalo con la app Downloader).
+La interfaz vive en app/src/main/assets/index.html
